@@ -66,3 +66,24 @@ footer {
     align-items: center;
 }
 
+#flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 80vh;
+    padding: 40px 20px;
+}
+
+
+.caja {
+    width: 100px;
+    height: 100px;
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
