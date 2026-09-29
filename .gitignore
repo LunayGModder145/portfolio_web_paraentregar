@@ -1,1 +1,4 @@
+# Descartar archivos que no quieres que lea
+
 .vscode
+hola.txt

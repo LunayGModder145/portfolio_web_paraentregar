@@ -11,3 +11,10 @@ git log ---> ultimos commits subidos
 git branch -M main
 git remote -V -> ver configuracion
 git push -u origin main -> subir tus cambios
+
+Repetir:
+1- haz un cambio en el html
+2. Subir cambios: (comprobr cada paso con git status)
+git add .
+git commit -m "nuevo cambio"
+git push
