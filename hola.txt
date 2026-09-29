@@ -1,0 +1,13 @@
+hola como estas amigo
+
+comandos para git:
+
+git init - inicializa
+git add .
+git commit -m //"Creada estructura Web"
+git status
+git branch -M main
+git log ---> ultimos commits subidos
+git branch -M main
+git remote -V -> ver configuracion
+git push -u origin main -> subir tus cambios
