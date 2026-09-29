@@ -1,5 +1,19 @@
 hola como estas amigo
 
+Para trabajar con un repo GIT nuevo:
+git init
+git add .
+git status
+git commit -m "creada estructura web"
+git status
+git log --> ultimos commits subidos
+git branch -M main
+git remote add origin url_de_tu_repo
+git remote -v -> ver configuración de origin (donde hacemos push)
+git push -u origin main  --> Subir tus cambios
+
+
+
 comandos para git:
 
 git init - inicializa
@@ -36,3 +50,10 @@ Buenas practicas:
   -git commit -m "subida 1"
   -git commit -m "subida final"
   -git commit -m "subida final definitiva 2"
+
+  Repetir cada día en el proyecto:
+1. Haz un cambio en el HTML
+2. Subir cambios: (comprobar cada paso con git status)
+    git add .
+    gut commit -m "nuevo cambio"
+    git push

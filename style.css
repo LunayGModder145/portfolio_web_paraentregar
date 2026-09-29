@@ -1,4 +1,18 @@
 h1 {
+    display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: red;
+}
+
+h2 {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
 }
