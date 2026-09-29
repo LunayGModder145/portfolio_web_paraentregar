@@ -87,3 +87,24 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 800px) {
+    .caja:nth-child(3) {
+        background: yellow;
+        color: black;
+        order: -1;
+    }
+
+}
+
+@media (max-width: 500px) {
+    flex {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-end;
+    }
+
+    .caja {
+        width: 300px;
+    }
+}
