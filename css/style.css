@@ -3,4 +3,28 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 30px;
+    background: #222;
+    color: #fff;
+}
+.logo { font-weight: 700;}
+nav {display: flex; gap: 24px;}
+nav a {color: #fff; text-decoration: none; font-weight: 300;}
+nav a:hover { text-decoration: underline;}
+
+main{
+    flex-grow: 1;
+}
+
+footer {
+    margin-top: auto;
+}
+
