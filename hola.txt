@@ -4,6 +4,7 @@ comandos para git:
 
 git init - inicializa
 git add .
+git status
 git commit -m //"Creada estructura Web"
 git status
 git branch -M main
@@ -18,3 +19,20 @@ Repetir:
 git add .
 git commit -m "nuevo cambio"
 git push
+
+
+Buenas practicas:
+- Hacer commits regularmente (Importante)
+
+  -git commit -m "add/WIP/slider_fotos_boton_cambio"
+  -git commit -m "add/WIP/slider_fotos_boton_carrusel"
+  -git commit -m "update/slider_video"
+  -git commit -m "delete/boton_login"
+
+- No esperes a tener X cosa completamente full terminada para hacerle commit por si se te pierde.
+- Haz commit con las cosas que si se lleguen a quedar en el codigo
+- Cuidar nombres de commits. Evitar
+  -git commit -m "hola"
+  -git commit -m "subida 1"
+  -git commit -m "subida final"
+  -git commit -m "subida final definitiva 2"
