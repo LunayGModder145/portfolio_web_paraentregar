@@ -21,6 +21,12 @@ section {
 }
 
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 10;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +42,8 @@ header{
 
 
 nav {
-    display: flex; gap: 24px;
+    display: flex; 
+    gap: 24px;
 }
 
 nav a {
@@ -48,8 +55,6 @@ nav a {
 nav a:hover { 
     text-decoration: underline;
 }
-
-
 
 .masthead {
     height: 80vh;
